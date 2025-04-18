@@ -22,7 +22,7 @@ java {
 }
 
 jar {
-    archiveBaseName.set('MyPlugin')
+    archiveBaseName.set('ClockPlugin')
     archiveVersion.set('1.0')
     destinationDirectory.set(file("$rootDir/out"))
 }
