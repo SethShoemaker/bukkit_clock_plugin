@@ -3,7 +3,7 @@ package com.sethshoemaker.block_plugin;
 import java.time.LocalTime;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class BlockPlugin extends JavaPlugin {
+public class ClockPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("ClockPlugin is enabled!");
