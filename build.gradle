@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.sethshoemaker.clock_plugin'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/public/'
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+jar {
+    archiveBaseName.set('MyPlugin')
+    archiveVersion.set('1.0')
+    destinationDirectory.set(file("$rootDir/out"))
+}

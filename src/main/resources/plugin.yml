@@ -1,0 +1,4 @@
+name: ClockPlugin
+version: 1.0
+main: com.sethshoemaker.block_plugin.BlockPlugin
+api-version: 1.20

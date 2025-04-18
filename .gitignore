@@ -1,0 +1,26 @@
+# Gradle build output
+/build/
+/out/
+/.gradle/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Plugin-specific
+/plugins/  # If you’re testing plugins directly in a server folder inside your project
